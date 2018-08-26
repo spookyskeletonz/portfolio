@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website for nsarkar",
+  "main": "app.js",
+  "repository": "github.com/nsarkar/portfolio",
+  "author": "nsarkar",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "semantic-ui-react": "^0.81.1"
+  },
+  "scripts": {
+    "build": "./node_modules/browserify/bin/cmd.js -t [ babelify --presets [ es2015 react] ] js/index.js -o bundle.js"
+  }
+}
