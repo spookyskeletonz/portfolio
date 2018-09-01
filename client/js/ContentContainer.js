@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-//import Projects from 'Projects.js';
-//import AboutMe from 'AboutMe.js';
-//import Contact from 'Contact.js';
+import Projects from './Projects.js';
+import AboutMe from './Aboutme.js';
+import Contact from './Contact.js';
 
 class ContentContainer extends Component {
   constructor(props) {
@@ -11,9 +11,9 @@ class ContentContainer extends Component {
   render(){
     return (
       <div className="ContentContainer">
-        <h1 id="projects">projects</h1>
-        <h1 id="aboutme">aboutme</h1>
-        <h1 id="contact">contact</h1>
+        <Projects />
+        <AboutMe /> 
+        <Contact /> 
       </div>
     );
   }

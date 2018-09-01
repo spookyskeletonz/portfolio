@@ -33,23 +33,13 @@ class Navigator extends Component {
 
   render() {
     return(
-      <Menu vertical text >
-        <Menu.Item
-          name='projects'
-          active={this.state.activeItem === 'projects'}
-          onClick={this.handleProjectsClick}
-        />
-        <Menu.Item
-          name='about me'
-          active={this.state.activeItem === 'about me'}
-          onClick={this.handleAboutMeClick}
-        />
-        <Menu.Item
-          name='contact'
-          active={this.state.activeItem === 'contact'}
-          onClick={this.handleContactClick}
-        />
-      </Menu>
+      <div className="navigator">
+        <Menu inverted vertical text size='massive'>
+          <Menu.Item onClick={this.handleProjectsClick}><div className="menuItem">projects</div></Menu.Item>
+          <Menu.Item onClick={this.handleAboutMeClick}><div className="menuItem">about me</div></Menu.Item>
+          <Menu.Item onClick={this.handleContactClick}><div className="menuItem">contact</div></Menu.Item>
+        </Menu>
+      </div>
     );
   }
 }

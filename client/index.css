@@ -2,3 +2,23 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
+
+.navigator {
+    padding-top: 1em;
+    padding-left: 2em;
+    position: fixed;
+}
+
+.menuItem {
+    font-size: 36px !important;
+}
+
+.content {
+    height: 100vh !important;
+}
+
+.contentTitle {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 36px;
+}
