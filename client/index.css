@@ -14,10 +14,25 @@
 }
 
 .content {
-    height: 100vh !important;
+    height: 100vh;
+}
+
+.card {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 15vh;
 }
 
 .contentTitle {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 36px;
+}
+
+.contentTitleRight {
+    text-align: right;
     padding-bottom: 1em;
     padding-top: 1em;
     font-size: 36px;
