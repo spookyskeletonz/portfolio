@@ -443,6 +443,11 @@ var Projects = function (_Component) {
                   _semanticUiReact.Card.Header,
                   { textAlign: 'center' },
                   'ActOnMe'
+                ),
+                _react2.default.createElement(
+                  _semanticUiReact.Card.Description,
+                  null,
+                  'an action item manager written in ReactJS, golang for api with a Postgres database'
                 )
               )
             ),
@@ -456,6 +461,11 @@ var Projects = function (_Component) {
                   _semanticUiReact.Card.Header,
                   { textAlign: 'center' },
                   'GoChat'
+                ),
+                _react2.default.createElement(
+                  _semanticUiReact.Card.Description,
+                  null,
+                  'a chat client using Golang and ReactJS. very basic, made to learn websockets.'
                 )
               )
             ),
@@ -469,6 +479,11 @@ var Projects = function (_Component) {
                   _semanticUiReact.Card.Header,
                   { textAlign: 'center' },
                   'UsTube'
+                ),
+                _react2.default.createElement(
+                  _semanticUiReact.Card.Description,
+                  null,
+                  'a synchronised youtube application, wherein each room contains users watching the same video with play/pause and video time synchronised, as well as a chat. written in Golang(server)/ReactJS(client)'
                 )
               )
             ),
@@ -482,6 +497,11 @@ var Projects = function (_Component) {
                   _semanticUiReact.Card.Header,
                   { textAlign: 'center' },
                   'CSE Revue 2018 Orgs Applications'
+                ),
+                _react2.default.createElement(
+                  _semanticUiReact.Card.Description,
+                  null,
+                  'An informational single page application built in ReactJS. Note: Hosted on free Heroku dyno, please allow time to spin up (~30s)'
                 )
               )
             )
