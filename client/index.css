@@ -15,6 +15,7 @@
 
 .content {
     height: 100vh;
+    overflow: auto;
 }
 
 .card {
@@ -37,3 +38,26 @@
     padding-top: 1em;
     font-size: 36px;
 }
+
+@media screen and (max-width: 550px){
+    .navigator {
+        display: none;
+    }
+
+    .contentTitle {
+        text-align: center;
+    }
+
+    .contentTitleRight {
+        text-align: center;
+    }
+
+    .card {
+        height: 10vh;
+    }
+
+    .description {
+        display: none;
+    }
+}
+
