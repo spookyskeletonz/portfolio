@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// create a simple file server to serve static files
-	// note the realtive path is from root folder of source code, not server
+	// note the relative path is from root folder of source code, not server
 	// this is because of aws eb stuff
 	fs := http.FileServer(http.Dir("./client"))
 	http.Handle("/", fs)
